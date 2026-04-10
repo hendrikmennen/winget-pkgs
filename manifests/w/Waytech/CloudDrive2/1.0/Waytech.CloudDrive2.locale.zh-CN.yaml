@@ -28,12 +28,15 @@ Tags:
 - 文件
 - 服务器
 ReleaseNotes: |-
-  1. 根据 123 云盘 API 变更，移除 123 云盘的永久删除文件选项，目前只能删除至回收站
-  2. S3 存储增加签名版本选项，默认为 V4，可选择 V2 来兼容老的 S3 服务
-  3. 修复一个可能会导致 web 界面显示服务器不可用的问题
-  4. 修复几处在需要输入 2FA 代码的输入框无法输入恢复码的问题
-  5. 其它性能改进
-ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.9.24
+  1. 修复以点开头的文件（如 .DS_Store）无法匹配上传和备份忽略扩展名规则的问题
+  2. 修复云存储代理服务器不可用时 FUSE statfs 长时间阻塞的问题，新增 15 秒超时，超时的云盘暂不计入磁盘空间统计，待恢复后会自动更新
+  3. 移动复制时冲突解决对话框中显示冲突文件列表
+  4. 修复备份文件过滤规则页面"添加规则"下拉菜单被裁剪的问题
+  5. 修复面包屑编辑器在有自动补全候选项时按回车无法导航的问题
+  6. 修复日志页面下载链接失效的问题
+  7. 修复 Shift 点击范围选择未考虑当前文件过滤器的问题
+  8. 其它 bug 修复和性能改进
+ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v1.0.4
 PurchaseUrl: https://www.clouddrive2.com/pricing.html
 ManifestType: locale
 ManifestVersion: 1.12.0

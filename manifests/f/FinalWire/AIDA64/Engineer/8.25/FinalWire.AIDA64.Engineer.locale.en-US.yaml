@@ -24,14 +24,13 @@ Tags:
 - hardware
 - monitor
 ReleaseNotes: |-
-  RAID member enumeration for Adaptec controllers
-  Hardware Monitoring / new items: Power Balancer #1..#6 voltages
-  Hardware Monitoring / new items: Power Balancer #1..#6 currents
-  Hardware Monitoring / new item: Power Balancer Total current
-  Hardware Monitoring / new items: Power Balancer #1..#6 powers
-  Hardware Monitoring / new item: Power Balancer Total power
-  optimized memory bandwidth benchmark run times on AMD Venice
-  fixed: sensor support for Aqua Computer Ampinel
+  "WARN" as global SMART status
+  Intel Processor Number detection for Core Ultra 5 250KF Plus
+  GPU information for Intel Arc Pro B65 (Battlemage)
+  GPU information for Intel Arc Pro B70 (Battlemage)
+  fixed: report review character encoding when report is too long
+  fixed: identification of Intel Core 3/5/7/9 200E Series (aka Bartlett Lake-S)
+  fixed: global SMART status detection for NVMe drives
 ReleaseNotesUrl: https://www.aida64.com/news/aida64-v825-sensorpanel-nvme-weact-lcd-azerbaijani-language
 PurchaseUrl: https://www.aida64.com/online-store
 Documentations:
