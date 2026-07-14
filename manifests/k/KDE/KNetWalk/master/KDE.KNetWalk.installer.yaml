@@ -9,14 +9,14 @@ ProductCode: knetwalk
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/knetwalk/master/windows/knetwalk-master-812-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F863608B8A23769EE8105DEAF6515730A1ECB2B538FEDC2E951D4804A487F21D
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/knetwalk/master/windows/knetwalk-master-850-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: E10192B9104D7C3C7A82920B2FF3F1D1932F819F4D5CACB4925EFB545BFD6994
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/knetwalk/master/windows/knetwalk-master-812-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: F863608B8A23769EE8105DEAF6515730A1ECB2B538FEDC2E951D4804A487F21D
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/knetwalk/master/windows/knetwalk-master-850-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: E10192B9104D7C3C7A82920B2FF3F1D1932F819F4D5CACB4925EFB545BFD6994
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
