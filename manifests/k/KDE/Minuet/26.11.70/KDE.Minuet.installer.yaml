@@ -6,17 +6,18 @@ PackageVersion: 26.11.70
 InstallerType: nullsoft
 UpgradeBehavior: install
 ProductCode: minuet
+ReleaseDate: 2026-09-04
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/minuet/master/windows/minuet-master-1211-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 4ED27A4568FFADC1DB5620D31DF020978C5B3E931EBEA1B83CE070EE977A1337
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/minuet/master/windows/minuet-master-1330-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 0111BDA30898F60742506D3BE46EEE943486B68DD1ECFD386007DB9623D72FB5
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/education/minuet/master/windows/minuet-master-1211-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 4ED27A4568FFADC1DB5620D31DF020978C5B3E931EBEA1B83CE070EE977A1337
+  InstallerUrl: https://cdn.kde.org/ci-builds/education/minuet/master/windows/minuet-master-1330-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 0111BDA30898F60742506D3BE46EEE943486B68DD1ECFD386007DB9623D72FB5
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
